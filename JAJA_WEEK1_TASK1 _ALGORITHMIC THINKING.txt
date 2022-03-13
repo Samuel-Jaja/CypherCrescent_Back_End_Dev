@@ -1,0 +1,99 @@
+							 WEEK1: TASK1 - ALGORITHMIC THINKING ASSIGNMENT - Samuel JAJA
+
+1. Write an algorithm to add two numbers?
+
+	ALGORITHM 
+	Step1:  Start
+	Step2:  Declare varibales a, b and c (the data type can all be considered integers)
+	Step3:  Read a and b 
+	Step4:  c=a+b
+	Step5:  Display the value of c
+	Step6:  Stop
+
+
+
+
+2. Write an algorithm to find the factorial of a number?
+
+	ALGORITHM
+	Step1: Start
+	Step2: Declare the varibales i, n, factorial .
+	Step3: Initialize the variables (i = 1, factorial = 1).
+	Step4: Read the value of m
+	Step5: If n is equal to zero
+			5.1: factorial is equal to 1 else.
+			5.2: Repeat the below steps until i is greater than m.
+				5.2.1: factorial equals factorial times i. 
+				5.2.2: Increase i by one (i=i+1)
+	Step6: Display the value of the factorial. 
+	Step 7:Stop
+
+
+3.Write an algorithm to find the Fibonacci sequence
+
+	ALGORITHM
+
+	Step 1: Start  
+	Step 2: Declare variable a,b,c,n,i  
+	Step 3: Initialize variable a=1, b=1, i=2  
+	Step 4: Read n from user  
+	Step 5: Print a and b  
+	Step 6: Repeat until i&lt;n 
+
+          6.1 c=a+b 
+          6.2 print c 
+          6.3 a=b, b=c 
+          6.4 i=i+1 
+	Stop 7: Stop 
+
+	
+	
+
+4.Write an algorithm to sort a given set of numbers. (Bubble sort)
+	
+
+	ALGORITHM
+	Step1: Start
+	Step2: Declare a set of numbers (say positive integer numbers) in form of an array.
+	Step3: Starting with the first element(index = 0), compare the current element with the next element of the number set or array.
+	Step4: If the current element is greater than the next element of the set of numbers swap them.
+	Step5: If the current element is less than the next element, move to the next element. 
+	Step6: Repeat the process until all numbers are sorted in ascending order.
+	Step7: Stop
+	
+	Edge cases: The number may align (sorted) in an ascending order with less number of passes depending on the nature of number set.
+
+
+
+5.Write an algorithm to convert a given number from one base to another.
+
+	ALGORITHM
+
+
+	Step1: Start 
+	Step2: Declare variables (Let n be the number of digits in the number, let b be the base of the number, let s be a total initially zero.)
+	Step3: For each digit in the number, working left to right repeat these
+		  3.1 Subtract 1 from n (n-1) 
+		  3.2 Multiply the digit timeS b exponent n and add to s.
+
+     Step4: If number is in decimal let v be a decimcal number
+	Step5: Let m be a number initailly empty which we are converting to, let b still maintain the base we are converting to
+	Step6: Repeat until n becomes zero.
+		  6.1 Divide n by b, letting the result be d and the remainder r (Ensure these variables have been declared).
+     Step7: Display  d as the new value of v.
+	Step8: Stop 
+
+
+
+	Alternatively:
+
+	Step1: Start
+	Step2: Declare varibales (decimal, radix, quotient , rem)
+	Step3: Read decimal and and radix
+	Step4: Divide the decimal by the radix of the target base
+	Step5: Note the remainder 
+	Step6: Use the quotient (answer) from step 3  as the decimal value to calculate the next.
+     Step7: Repeat step three until the quotient is zero.
+	Step8: Stop 
+
+	Edge cases: Let the number not be Hexadecimal but ranging from binary to decimal
