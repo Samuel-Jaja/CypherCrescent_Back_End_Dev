@@ -319,6 +319,16 @@ namespace CypherCrescentSoftwareAcademy_BackEndCohort
 
 
             //Arrays : Question 15
+            
+            //Arrays : Question 16
+            
+            //Arrays : Question 17
+            
+            //Arrays : Question 18
+            
+            //Arrays : Question 19
+            
+            
 
         }
     }
