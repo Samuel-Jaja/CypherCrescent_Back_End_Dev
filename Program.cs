@@ -57,7 +57,7 @@ namespace Methods_Recursion
             {
                 x1 = (-b + Math.Sqrt(d)) / (2 * a);
                 x2 = (-b - Math.Sqrt(d)) / (2 * a);
-               // Console.WriteLine("Two Real Solutions: {0,8:f4} or  {1,8:f4}", x1, x2);
+               
                 Console.WriteLine("Two Real Solutions: {0} or  {1}", x1, x2);
             }
             else if (d < 0)
@@ -65,13 +65,13 @@ namespace Methods_Recursion
                 d = -d;
                 x = -b / (2 * a);
                 imaginary = Math.Sqrt(d) / (2 * a);
-                //Console.WriteLine("Two Imaginary Solutions: {0,8:f4} + {1,8:f4} i or {2,8:f4} + {3,8:f4} i", x, img, x, img);
+               
                 Console.WriteLine("Two Imaginary Solutions: {0} + {1} i or {2} + {3} i", x, imaginary, x, imaginary);
             }
             else
             {
                 x = (-b + Math.Sqrt(d)) / (2 * a);
-                Console.WriteLine("One Real Solution: {0,8:f4}", x);
+                Console.WriteLine("One Real Solution: {0}", x);
             }
 
         }
